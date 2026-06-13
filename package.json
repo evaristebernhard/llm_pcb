@@ -15,7 +15,7 @@
     "@tscircuit/circuit-json-util": "^0.0.96",
     "@tscircuit/common": "^0.0.42",
     "@tscircuit/copper-pour-solver": "^0.0.32",
-    "@tscircuit/core": "latest",
+    "@tscircuit/core": "0.0.1322",
     "@tscircuit/footprinter": "^0.0.357",
     "@tscircuit/infer-cable-insertion-point": "^0.0.2",
     "@tscircuit/infgrid-ijump-astar": "^0.0.35",
@@ -50,8 +50,8 @@
     "schematic-symbols": "^0.0.225",
     "spicey": "^0.0.14",
     "stack-svgs": "^0.0.1",
-    "tsx": "latest",
-    "typescript": "latest",
+    "tsx": "4.22.4",
+    "typescript": "5.9.3",
     "zod": "3.25.76"
   }
 }

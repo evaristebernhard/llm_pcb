@@ -1,5 +1,5 @@
 import { Circuit, createElement } from "@tscircuit/core"
-import { writeFileSync } from "node:fs"
+import { mkdirSync, writeFileSync } from "node:fs"
 
 /**
  * Digital auto-ranging resistance tester PCB.
@@ -141,4 +141,5 @@ circuit.add(
   </board>,
 )
 
-writeFileSync("circuit.json", JSON.stringify(circuit.getCircuitJson(), null, 2))
+mkdirSync("dist", { recursive: true })
+writeFileSync("dist/circuit.json", JSON.stringify(circuit.getCircuitJson(), null, 2))
