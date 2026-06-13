@@ -1,0 +1,17 @@
+{
+  "name": "llm-pcb-resistance-tester",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "tscircuit PCB design for a digital auto-ranging resistance tester.",
+  "scripts": {
+    "build": "tsx src/resistance-tester.tsx",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tscircuit/core": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  },
+  "devDependencies": {}
+}
