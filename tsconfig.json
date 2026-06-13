@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "jsx": "react",
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "jsxFactory": "createElement",
+    "types": [
+      "@tscircuit/core",
+      "node"
+    ]
+  },
+  "include": [
+    "src/**/*.tsx",
+    "src/**/*.d.ts"
+  ]
+}
