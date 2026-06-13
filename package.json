@@ -5,7 +5,7 @@
   "type": "module",
   "description": "tscircuit PCB design for a digital auto-ranging resistance tester.",
   "scripts": {
-    "build": "tsx src/resistance-tester.tsx",
+    "build": "tsx --tsconfig tsconfig.json src/resistance-tester.tsx",
     "check": "tsc --noEmit"
   },
   "dependencies": {

@@ -30,4 +30,4 @@ npm install
 npm run build
 ```
 
-The build script emits `circuit.json`, which can be loaded into tscircuit-compatible viewers or downstream Gerber/export tooling.
+The build script emits `dist/circuit.json`, which can be loaded into tscircuit-compatible viewers or analysis tools. Generated output is not committed to the repository.
